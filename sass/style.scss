@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	background-repeat: no-repeat;
 	z-index: 0;
 	@media screen and (max-width: $screen-sm) {
-		heifght: inherit;
+		height: inherit;
 		padding: 3em 0;
 	}
 	.overlay{
@@ -1096,16 +1096,13 @@ article{
 		input::-webkit-input-placeholder {
 			color: lighten($brand-black,30%);
 		}
-		input::-moz-input-placeholder {
+		input::-moz-placeholder {
 			color: lighten($brand-black,30%);
 		}
-		input::-ms-input-placeholder {
+		input:-ms-input-placeholder {
 			color: lighten($brand-black,30%);
 		}
-		input::-o-input-placeholder {
-			color: lighten($brand-black,30%);
-		}
-		input::input-placeholder {
+		input::placeholder {
 			color: lighten($brand-black,30%);
 		}
 	}
