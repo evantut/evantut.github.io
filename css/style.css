@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 0; }
   @media screen and (max-width: 768px) {
     .video-hero {
-      heifght: inherit;
+      height: inherit;
       padding: 3em 0; } }
   .video-hero .overlay {
     position: absolute;
@@ -889,13 +889,11 @@ article {
         width: 100%; } }
     .qbstp-header-subscribe .form-group input::-webkit-input-placeholder {
       color: #4d4d4d; }
-    .qbstp-header-subscribe .form-group input::-moz-input-placeholder {
+    .qbstp-header-subscribe .form-group input::-moz-placeholder {
       color: #4d4d4d; }
-    .qbstp-header-subscribe .form-group input::-ms-input-placeholder {
+    .qbstp-header-subscribe .form-group input:-ms-input-placeholder {
       color: #4d4d4d; }
-    .qbstp-header-subscribe .form-group input::-o-input-placeholder {
-      color: #4d4d4d; }
-    .qbstp-header-subscribe .form-group input::input-placeholder {
+    .qbstp-header-subscribe .form-group input::placeholder {
       color: #4d4d4d; }
   .qbstp-header-subscribe #email {
     font-size: 14px;
